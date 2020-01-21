@@ -1,3 +1,6 @@
 # Lab5
 
-This uses an aPI from youtube, to retrieve videos based on a search.
+This is a practice for Youtube's API.
+The user is able to:
+- [x] Search videos given a text
+- [X] Open the video in youtube by clicking Thumbnail or Title
