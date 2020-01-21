@@ -1,0 +1,56 @@
+﻿/* color: #34495E*/
+h1 {
+    background-color: #34495E;
+    text-align:center;
+    color:whitesmoke;
+    padding:10px 0;
+}
+
+footer{
+    display:flex;
+    width:inherit;
+    justify-content:center;
+}
+#next {
+    width: 43px;
+    height: 43px;
+    border-radius: 7px;
+    background: url('./../img/next.png') no-repeat;
+    background-size: 40px 40px;
+    margin:10px;
+    display:none;
+}
+
+#prev {
+    width: 43px;
+    height: 43px;
+    border-radius: 7px;
+    background: url('./../img/prev.png') no-repeat;
+    background-size: 40px 40px;
+    margin: 10px;
+    display:none;
+}
+
+ul{
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
+}
+
+li{
+    display:flex;
+    align-items:flex-start;
+    border-bottom: 1px solid #555;
+    padding:10px 0px;
+}
+
+.vidTitle{
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    color:#333;
+    padding:10px;
+}
+.youtubeLink{
+    display:none;
+}
